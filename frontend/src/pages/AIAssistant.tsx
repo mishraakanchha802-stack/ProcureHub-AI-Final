@@ -23,7 +23,7 @@ setLoading(true);
 
 try {
   const res = await fetch(
-    "http://localhost:5000/api/chat",
+    "https://procurehub-ai-backend.onrender.com/api/chat",
     {
       method: "POST",
       headers: {
